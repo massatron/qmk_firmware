@@ -11,7 +11,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		[_CODER] = LAYOUT_pad(
 			KC_F5, KC_UP, KC_F10,
 			KC_LEFT, KC_DOWN, KC_RGHT,
-			KC_LCTL, TG(1), KC_RSFT
+			KC_LCTL, TG(0), KC_RSFT
 		)
 	};
 
