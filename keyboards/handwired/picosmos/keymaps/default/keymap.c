@@ -24,7 +24,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
         // RIGHT HALF
         // GP16 - Function row (4 keys: col 3,4,5,6)
-        KC_F12,  UC(0x00E5), UC(0x00E4), UC(0x00F6),
+        KC_F12, UP(0x00E5, 0x00C5), UP(0x00E4, 0x00C4), UP(0x00F6, 0x00D6),
         // GP17 - Number row (7 keys: col 0,1,2,3,4,5,6)
         KC_VOLU, KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_DEL,
         // GP18 - QWERTY top (7 keys: col 0,1,2,3,4,5,6)
@@ -55,7 +55,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         // GP18 - QWERTY top (7 keys: col 0,1,2,3,4,5,6)
         KC_PGUP, KC_TRNS, KC_TRNS, KC_UP,   KC_TRNS, KC_TRNS, KC_TRNS,
         // GP19 - Home row (8 keys: col 0,1,2,3,4,5,6,7)
-        KC_PGDN, KC_TRNS, KC_RGHT, KC_DOWN, KC_LEFT, KC_TRNS, KC_TRNS, KC_TRNS,
+        KC_PGDN, KC_TRNS, KC_TRNS, KC_LEFT, KC_DOWN, KC_RGHT, KC_TRNS, KC_TRNS,
         // GP20 - Bottom row (8 keys: col 0,1,2,3,4,5,7,8)
         TG(_FN), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         // GP21 - Thumb cluster (4 keys: col 2,3,7,8)
