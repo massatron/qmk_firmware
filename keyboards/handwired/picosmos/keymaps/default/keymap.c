@@ -32,9 +32,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         // GP19 - Home row (8 keys: col 0,1,2,3,4,5,6,7)
         KC_PSCR, KC_MINS, KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_BSLS,
         // GP20 - Bottom row (8 keys: col 0,1,2,3,4,5,7,8)
-        TG(_FN), KC_UP,   KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RCTL,
+        TG(_FN), KC_RALT,   KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RCTL,
         // GP21 - Thumb cluster (4 keys: col 2,3,7,8)
-        KC_DOWN, KC_SPC,  KC_QUOT, KC_GRV
+        KC_RSFT, KC_SPC,  KC_QUOT, KC_GRV
     ),
 
         // RIGHT HALF
@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        KC_CAPS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 
@@ -57,8 +57,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         // GP19 - Home row (8 keys: col 0,1,2,3,4,5,6,7)
         KC_PGDN, KC_TRNS, KC_TRNS, KC_LEFT, KC_DOWN, KC_RGHT, KC_TRNS, KC_TRNS,
         // GP20 - Bottom row (8 keys: col 0,1,2,3,4,5,7,8)
-        TG(_FN), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        TG(_FN), KC_UP, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         // GP21 - Thumb cluster (4 keys: col 2,3,7,8)
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+        KC_DOWN, KC_TRNS, KC_TRNS, KC_TRNS
     )
 };
